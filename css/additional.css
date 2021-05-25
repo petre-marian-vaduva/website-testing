@@ -194,3 +194,13 @@ blockquote {
 		font-size: 1rem !important;
 	}
 }
+
+.mbr-footer-content li::before,
+.mbr-footer .mbr-contacts li::before {
+	background: #232323;
+}
+
+.mbr-footer-content li a:hover,
+.mbr-footer .mbr-contacts li a:hover {
+	color: #232323;
+}
