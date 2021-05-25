@@ -180,3 +180,17 @@ body {
 blockquote {
 	border-color: #232323;
 }
+
+.mbr-form .btn {
+	margin: .4rem 0;
+}
+
+@media (max-width: 767px) {
+	.btn {
+		font-size: .75rem !important;
+	}
+
+	.btn .mbr-iconfont {
+		font-size: 1rem !important;
+	}
+}
