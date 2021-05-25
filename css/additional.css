@@ -162,3 +162,21 @@ body {
 	background-color: #008300 !important;
 	border-color: #008300 !important;
 }
+
+.scrollToTop_wraper {
+	display: none;
+}
+
+.form-control {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.2rem;
+	font-display: swap;
+}
+
+.form-control>.mbr-iconfont {
+	font-size: 1.92rem;
+}
+
+blockquote {
+	border-color: #232323;
+}
