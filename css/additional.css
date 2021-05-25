@@ -83,3 +83,82 @@ body {
 		line-height: calc(1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
 	}
 }
+
+.btn {
+	padding: 1rem 3rem;
+	border-radius: 3px;
+}
+
+.btn-sm {
+	padding: 0.6rem 1.5rem;
+	border-radius: 3px;
+}
+
+.btn-md {
+	padding: 1rem 3rem;
+	border-radius: 3px;
+}
+
+.btn-lg {
+	padding: 1.2rem 3.2rem;
+	border-radius: 3px;
+}
+
+.bg-primary {
+	background-color: #232323 !important;
+}
+
+.bg-success {
+	background-color: #008800 !important;
+}
+
+.bg-info {
+	background-color: #000000 !important;
+}
+
+.bg-warning {
+	background-color: #efefef !important;
+}
+
+.bg-danger {
+	background-color: #00e600 !important;
+}
+
+.btn-primary,
+.btn-primary:active {
+	background-color: #232323 !important;
+	border-color: #232323 !important;
+	color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+	color: #ffffff !important;
+	background-color: #000000 !important;
+	border-color: #000000 !important;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+	color: #ffffff !important;
+	background-color: #000000 !important;
+	border-color: #000000 !important;
+}
+
+.btn-secondary,
+.btn-secondary:active {
+	background-color: #00cf00 !important;
+	border-color: #00cf00 !important;
+	color: #ffffff !important;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary.active {
+	color: #ffffff !important;
+	background-color: #008300 !important;
+	border-color: #008300 !important;
+}
